@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RefreshZapret")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5a7b9e75953727de59615aeb216188e7d52c4fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81f2c35167854a8f92a73396c525621b29086f52")]
 [assembly: System.Reflection.AssemblyProductAttribute("RefreshZapret")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RefreshZapret")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
