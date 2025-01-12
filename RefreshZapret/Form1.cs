@@ -41,13 +41,15 @@ namespace RefreshZapret
         {
             try
             {
-                foreach (Process proc in Process.GetProcessesByName("zapret"))
+                foreach (Process proc in Process.GetProcessesByName("winws"))
                 {
-
                     proc.Kill();
                     proc.WaitForExit();
+                    
+
                 }
-                Process.Start("%SYSTEMDRIVE%\\Users\\User\\Downloads\\zapret-discord-youtube-main\\bin\\winws.exe\\");
+                Process.Start(@"C:\Users\User\Downloads\zapret-discord-youtube-main\bin\winws.exe");
+                MessageBox.Show("process restart");
             }
             catch (Exception ex)
             {

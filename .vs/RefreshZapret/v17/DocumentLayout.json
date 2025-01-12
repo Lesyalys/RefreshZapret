@@ -5,14 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F5AEEA6D-C69F-4C50-86F9-E3B270768328}|RefreshZapret\\RefreshZapret.csproj|c:\\users\\user\\mystudy\\refreshzapret\\refreshzapret\\refreshzapret\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5AEEA6D-C69F-4C50-86F9-E3B270768328}|RefreshZapret\\RefreshZapret.csproj|solutionrelative:refreshzapret\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5AEEA6D-C69F-4C50-86F9-E3B270768328}|RefreshZapret\\RefreshZapret.csproj|C:\\Users\\User\\myStudy\\refreshZapret\\RefreshZapret\\refreshzapret\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F5AEEA6D-C69F-4C50-86F9-E3B270768328}|RefreshZapret\\RefreshZapret.csproj|solutionrelative:refreshzapret\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5AEEA6D-C69F-4C50-86F9-E3B270768328}|RefreshZapret\\RefreshZapret.csproj|c:\\users\\user\\mystudy\\refreshzapret\\refreshzapret\\refreshzapret\\refreshzapret.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{F5AEEA6D-C69F-4C50-86F9-E3B270768328}|RefreshZapret\\RefreshZapret.csproj|solutionrelative:refreshzapret\\refreshzapret.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RefreshZapret",
-              "DocumentMoniker": "C:\\Users\\User\\myStudy\\refreshZapret\\RefreshZapret\\RefreshZapret\\RefreshZapret.csproj",
-              "RelativeDocumentMoniker": "RefreshZapret\\RefreshZapret.csproj",
-              "ToolTip": "C:\\Users\\User\\myStudy\\refreshZapret\\RefreshZapret\\RefreshZapret\\RefreshZapret.csproj",
-              "RelativeToolTip": "RefreshZapret\\RefreshZapret.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-12T16:44:44.699Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -43,21 +24,10 @@
               "RelativeDocumentMoniker": "RefreshZapret\\Form1.cs",
               "ToolTip": "C:\\Users\\User\\myStudy\\refreshZapret\\RefreshZapret\\RefreshZapret\\Form1.cs",
               "RelativeToolTip": "RefreshZapret\\Form1.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAnwC8AAAAnAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAADQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T15:43:30.856Z",
+              "WhenOpened": "2025-01-12T18:20:10.498Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "DocumentMoniker": "C:\\Users\\User\\myStudy\\refreshZapret\\RefreshZapret\\RefreshZapret\\Form1.cs",
-              "RelativeDocumentMoniker": "RefreshZapret\\Form1.cs",
-              "ToolTip": "C:\\Users\\User\\myStudy\\refreshZapret\\RefreshZapret\\RefreshZapret\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "RelativeToolTip": "RefreshZapret\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T15:40:51.813Z"
             }
           ]
         }
