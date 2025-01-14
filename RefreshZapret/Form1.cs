@@ -5,6 +5,7 @@ using System.Net;
 using System.ServiceProcess;
 using System.Linq;
 using System.Windows.Forms;
+using Microsoft.VisualBasic.ApplicationServices;
 
 namespace RefreshZapret
 {
@@ -29,15 +30,18 @@ namespace RefreshZapret
             ContextMenuStrip contextMenuStrip = new ContextMenuStrip();
             notifyIcon.ContextMenuStrip = contextMenuStrip;
 
-            ToolStripMenuItem toolStripMenuItem = new ToolStripMenuItem("Refresh Zapret");
-            toolStripMenuItem.Click += new EventHandler(RestartOtherApp_Click);
+            ToolStripMenuItem toolStripMenuItemStop = new ToolStripMenuItem("stop Zapret");
+            ToolStripMenuItem toolStripMenuItemStart = new ToolStripMenuItem("start Zapret");
+            toolStripMenuItemStop.Click += new EventHandler(RestartOtherApp_ClickStop);
+            toolStripMenuItemStart.Click += new EventHandler(RestartOtherApp_ClickStart);
 
-            contextMenuStrip.Items.Add(toolStripMenuItem);
+            contextMenuStrip.Items.Add(toolStripMenuItemStop);
+            contextMenuStrip.Items.Add(toolStripMenuItemStart);
 
 
         }
 
-        private void RestartOtherApp_Click(object sender, EventArgs e)
+        private void RestartOtherApp_ClickStop(object sender, EventArgs e)
         {
             try
             {
@@ -48,14 +52,26 @@ namespace RefreshZapret
                     
 
                 }
-                Process.Start(@"C:\Users\User\Downloads\zapret-discord-youtube-main\bin\winws.exe");
-                MessageBox.Show("process restart");
+                MessageBox.Show("process stop");
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
 
+
+        }
+
+        private void RestartOtherApp_ClickStart(object sender, EventArgs e)
+        {
+            try
+            {
+                Process.Start(@"C:\Users\User\Downloads\zapret-discord-youtube-main\bin\winws.exe");
+                MessageBox.Show("process start");
+            }
+            catch (Exception ex) {
+                MessageBox.Show(ex.Message);
+            }
 
         }
     }
